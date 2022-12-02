@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #DBCCEB;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right_content{
+    background: black;
+    max-width: 40vw;
+    max-height: 100vh;
+    
+}
+.right_content img{
+   width: 100%;
+   height: 100%;
+}
