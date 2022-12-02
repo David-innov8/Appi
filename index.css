@@ -1,16 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 .container{
     background-color: #DBCCEB;
     height: 100vh;
+   
     display: flex;
     justify-content: space-between;
 }
+/*left content*/
+.logo{
+    padding: 40px 0px 0px 30px;
+}
 
+
+.left_text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+
+.big_text span{
+    color: #4D0099;
+}
+
+.para{
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 35px;
+}
+   
+
+.left_text h1{
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.btns{
+    padding-top: 20px;
+    
+    
+}
+
+.btns button{
+    height: 64px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.register_btn{
+    background: #4D0099;
+    border: 1px solid #4D0099;
+    color: white;
+    
+}
+
+.Login_btn{
+    background: transparent;
+        border: 1px solid #4D0099;
+    color: #4D0099 ;
+}
+
+
+
+
+
+
+
+
+/*right image*/
 
 .right_content{
     background: black;
