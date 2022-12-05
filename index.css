@@ -96,12 +96,12 @@
 
 /* for phones*/
 
-@media screen and (max-width:600px)
+/*@media screen and (max-width:600px)
 {
     .container{
         background-image: url(images/Login_img.jpg);
         background-size: cover;
-    
+        
         width: 100%;
         margin: 0 auto;
         background-color: rgba(253, 253, 253, 0.5);
