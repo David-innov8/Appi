@@ -8,11 +8,20 @@
 body{
     background-color: #F3F3F3;
 }
+
+.container input{
+    height: 54px;
+    border: 1px solid #ADAABF;
+    color: #ADAABF;
+}
 /*Mobile view*/
+@media screen and (max-width:400px) {
+    
+}
 .container{
     display: flex;
     flex-direction: column;
-    padding: 80px 40px 80px  40px;
+    padding: 110px 40px ;
     
 }
 
@@ -33,11 +42,7 @@ body{
     font-size: 18px;
 }
 
-.container input{
-    height: 54px;
-    border: 1px solid #ADAABF;
-    color: #ADAABF;
-}
+
 
 
 .element{
@@ -78,6 +83,27 @@ input.size{
 }
 
 /*tablet view*/
-@media screen and (max-width: ) {
-    
+@media screen and (min-width: 768px) {
+    .element_wrap{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap:16px ;
+        
+
+    }
+
+    .container{
+        padding: 90px 120px;
+    }
+  
+}
+
+/*
+
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
 }
