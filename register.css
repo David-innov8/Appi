@@ -5,8 +5,10 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-
-
+body{
+    background-color: #F3F3F3;
+}
+/*Mobile view*/
 .container{
     display: flex;
     flex-direction: column;
@@ -33,11 +35,11 @@
 
 .container input{
     height: 54px;
+    border: 1px solid #ADAABF;
+    color: #ADAABF;
 }
 
-.container label input{
-    
-}
+
 .element{
     display: flex;
     flex-direction: column;
@@ -73,4 +75,9 @@ input.size{
     background-color: #4D0099;
     color: white;
     font-size: 18px;
+}
+
+/*tablet view*/
+@media screen and (max-width: ) {
+    
 }
