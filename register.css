@@ -21,7 +21,7 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    padding: 110px 40px ;
+    padding: 90px 40px ;
     
 }
 
@@ -48,7 +48,7 @@ body{
 .element{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #322B5F;
 }
 
@@ -96,6 +96,53 @@ input.size{
         padding: 90px 120px;
     }
   
+    .container{
+   padding: 100px 120px ;
+    
+   }
+   .container img{
+    height: 21px;
+    width: 21px;
+    
+}
+
+    .container h3{
+    margin-top: 78px;
+    font-size: 36px;
+}
+    .container p{
+    margin-top: 16px;
+}
+    .element_wrap{
+   
+    margin-top: 70px;
+    color: #322B5F;
+}
+
+    .element input {
+    margin-top: 18px;
+}
+
+    .element{
+        margin-top: 26px;
+    }
+    .checkbox {
+   
+    margin-top: 67px;
+    color: #322B5F;
+}
+    .checkbox p{
+    font-size: 18px;
+
+}
+    .container button{
+    margin-top: 49px;
+    height: 64px;
+    width: 222px;
+   
+    font-size: 24px;
+   
+}
 }
 
 /*
